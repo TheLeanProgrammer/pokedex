@@ -95,7 +95,7 @@ class App extends React.Component<any, AppState> {
     render() {
         return (
             <div className="App">
-                <h1>Pokedex!</h1>
+                <h1>Pokedex</h1>
                 <Pokedex
                     pokemons={this.state.searchedPokemons}
                     onInputChange={this.handleInputChange}
